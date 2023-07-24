@@ -1,4 +1,4 @@
-{
+{ "homepage": "http://MZ-21.github.io/mijgon-website",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,7 +42,9 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MZ-21/mijgon-website.git"
@@ -49,6 +53,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MZ-21/mijgon-website/issues"
-  },
-  "homepage": "https://github.com/MZ-21/mijgon-website#readme"
+  }
 }
