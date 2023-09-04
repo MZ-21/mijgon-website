@@ -1,29 +1,35 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/Apps2.jpg'
-import IMG2 from '../../assets/game.jpg'
-import IMG3 from '../../assets/game2.jpg'
+import IMG1 from '../../assets/LunchT.png'
+import IMG2 from '../../assets/HauntedForest.png'
+import IMG3 from '../../assets/MonsterMadness.png'
+import IMG4 from '../../assets/SwiftNotes.png'
 
 const data = [
    {
     id: 1,
     image: IMG1,
     title: "LunchT: IOS Based App",
-    github: "https://github.com/"
+    github: "https://github.com/MZ-21/Swift-Projects"
    },
    {
     id: 2,
     image: IMG2,
     title: "Haunted Forest Pygame",
-    github: "https://github.com/"
+    github: "https://github.com/MZ-21/Python-Projects"
    },
    {
     id: 3,
     image: IMG3,
-    title: "Monster Chase Unity Game",
-    github: "https://github.com/"
+    title: "Monster Madness Unity Game",
+    github: "https://github.com/MZ-21/Unity-Projects"
+   },
+   {
+    id: 4,
+    image: IMG4,
+    title: "SwiftNotes: Simple Note Platform",
+    github: "https://github.com/MZ-21/JavaScript-Projects"
    }
-
 ]
 const Portfolio = () => {
   return (
