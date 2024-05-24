@@ -14,6 +14,10 @@ const Experience = () => {
             <div className='experience__content'>
                 <article className='experience__details'>
                     <BiSolidBadgeCheck className='experience__details-icons'/>
+                    <div><h4>Java</h4></div>
+                </article>
+                <article className='experience__details'>
+                    <BiSolidBadgeCheck className='experience__details-icons'/>
                     <div><h4>HTML</h4></div>
                 </article>
                 <article className='experience__details'>
@@ -26,15 +30,11 @@ const Experience = () => {
                 </article>
                 <article className='experience__details'>
                     <BiSolidBadgeCheck className='experience__details-icons'/>
-                    <div><h4>JavaFX</h4></div>
+                    <div><h4>C++</h4></div>
                 </article>
                 <article className='experience__details'>
                     <BiSolidBadgeCheck className='experience__details-icons'/>
-                    <div><h4>Unity</h4></div>
-                </article>
-                <article className='experience__details'>
-                    <BiSolidBadgeCheck className='experience__details-icons'/>
-                    <div><h4>Java</h4></div>
+                    <div><h4>C</h4></div>
                 </article>
                 <article className='experience__details'>
                     <BiSolidBadgeCheck className='experience__details-icons'/>
@@ -43,10 +43,6 @@ const Experience = () => {
                 <article className='experience__details'>
                     <BiSolidBadgeCheck className='experience__details-icons'/>
                     <div><h4>SQL</h4></div>
-                </article>
-                <article className='experience__details'>
-                    <BiSolidBadgeCheck className='experience__details-icons'/>
-                    <div><h4>Swift</h4></div>
                 </article>
             </div>
 

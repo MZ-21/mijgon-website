@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-3.jpg'
-import HIKING from '../../assets/hiking1.jpg'
+
 import {FaLaptop} from 'react-icons/fa' 
 import {LiaUserSolid} from 'react-icons/lia'
 import {BsFolderPlus} from 'react-icons/bs'
@@ -42,7 +42,7 @@ const About = () => {
                 <article className='about__card'>
                   <FaLaptop className='about__icon'/>
                   <h5>Experience</h5>
-                  <small>2+ Years Coding</small>
+                  <small>3+ Years Coding</small>
                 </article>
 
                 <article className='about__card'>
@@ -63,7 +63,8 @@ const About = () => {
               I am currently receiving my Bachelor's degree in Software Engineering. 
               Outside of coding, I enjoy playing sports, hiking, and trying out new activities. 
               I also like to create digital art and read in my free time.
-              
+            </p>
+            <p>
               Feel free to contact me at anytime c:
             </p>
 
